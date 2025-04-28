@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <title>Trade Pilot</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="logo.png" alt="Logo"></div>
+            <div class="dropdown">
+                <a href="dashboard.html">Dashboard</a>
+                <a href="clients.html">Clients</a>
+                <a href="quotes.html">Quotes</a>
+                <a href="orders.html">Orders</a>
+                <button id="logout">Logout</button>
+            </div>
+    </div>
+    <div class="container-dashboard">
+        <h1>Dashboard</h1>
+        <div class="card-container">
+            <div class="card">
+                <button class="dashboard-button"><h3>Total Quotes</h3></button>
+            </div>
+            <div class="card">
+                <button class="dashboard-button"><h3>Quotes Accepted</h3></button>
+            </div>
+            <div class="card">
+                <button class="dashboard-button"><h3>Orders in Progress</h3></button>
+            </div>
+        </div>
+            <h2>Recent Quotes</h2>
+            <div class="recent-quotes">
+                <table id="recent-quotes-table">
+                    <tr>
+                        <th>Quote</th>
+                        <th>Client</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Q12345</td>
+                        <td>John Doe</td>
+                        <td>01.03.2025</td>
+                        <td>Accepted</td>
+                    </tr>
+                    <tr>
+                        <td>Q12346</td>
+                        <td>Jane Smith</td>
+                        <td>22.05.2025</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Q12346</td>
+                        <td>Jane Smith</td>
+                        <td>22.05.2025</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Q12346</td>
+                        <td>Jane Smith</td>
+                        <td>22.05.2025</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Q12346</td>
+                        <td>Jane Smith</td>
+                        <td>22.05.2025</td>
+                        <td>Pending</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+</body>
+</html>
